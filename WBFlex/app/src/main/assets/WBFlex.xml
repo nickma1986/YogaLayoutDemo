@@ -1,0 +1,36 @@
+<Cards>
+	<!-- Card101 -->
+	<FlexLayout
+		style="101"
+		key="c101"
+		flex-wrap="wrap">
+		<Text
+			key="title"
+			justify-content="center"
+			text="${data.title}"
+			/>
+		<VLayout>
+			<Image
+				key="icon"
+				src="${data.icon}"/>
+			<Text
+				key="content"/>
+		</VLayout>
+	</FlexLayout>
+	<!-- Card102 -->
+	<FlexLayout
+		style="102"
+		key="c101"
+		flex-wrap="wrap">
+		<Text
+			key="title"
+			justify-content="center"
+			/>
+		<VLayout>
+			<Image
+				key="icon"/>
+			<Text
+				key="content"/>
+		</VLayout>
+	</FlexLayout>
+</Cards>
